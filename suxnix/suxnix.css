@@ -1,0 +1,727 @@
+.navbar-brand i {
+    color: #93d63c;
+}
+
+body {
+    background-image: url("C:/Users/muham/OneDrive/Documents/suxnix/images/pastel_rainbow_coloured_watercolour_texture_background_0612.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Plugin image sizing */
+.plugin-logo {
+    margin-top: -30px;
+    width: 240px;
+    height: auto;
+}
+@media (min-width: 576px) {
+    .plugin-logo { width: 140px; }
+}
+@media (min-width: 768px) {
+    .plugin-logo { width: 180px; }
+}
+@media (min-width: 992px) {
+    .plugin-logo { width: 160px; }
+}
+@media (min-width: 1200px) {
+    .plugin-logo { width: 210px; }
+}
+
+/* removed duplicate heading and border rules */
+
+.custom-heading {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #111;
+    text-align: center;
+    line-height: 1.3;
+}
+
+@media (min-width: 576px) {
+    .custom-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom-heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-heading {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom-heading {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .custom-heading {
+        font-size: 3.5rem;
+    }
+}
+
+.custom-background {
+    background-image: url("C:/Users/muham/OneDrive/Documents/suxnix/images/25098.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: -130px;
+}
+
+@media (max-width: 1219px) {
+    .left-right-images {
+        display: none !important;
+    }
+}
+
+/* duplicate media removed - using consolidated set below */
+
+
+
+/* removed older base + media duplicates for .custom-heading */
+
+/* removed duplicate .custom-background and duplicate hide rule */
+
+.left-right-images .col-md-6:first-child img {
+    position: relative;
+    top: -47px;
+    left: -188px;
+}
+
+.left-right-images .col-md-6:last-child img {
+    position: relative;
+    top: 5px;
+    left: 177px;
+}
+
+/* Tighten spacing under the product image row */
+.left-right-images .mb-4 {
+    margin-bottom: 0 !important;
+}
+
+/* Remove shadow and border-radius from left-right images */
+.left-right-images .shadow.rounded {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.demo-preview-card {
+    padding: 15px;
+    border-radius: 20px;
+    background: transparent;
+    position: relative;
+}
+
+
+.demo-preview-card img {
+    width: 155% !important;
+    max-width: none !important;
+    height: auto;
+    border-radius: 15px;
+    border: 20px solid transparent !important;
+    background: url("C:/Users/muham/OneDrive/Documents/suxnix/images/pastel_rainbow_coloured_watercolour_texture_background_0612.jpg");
+    background-size: cover;
+    background-clip: border-box;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Responsive image sizing */
+@media (max-width: 1200px) {
+    .demo-preview-card img {
+        width: 155% !important;
+        border: 15px solid transparent !important;
+    }
+    .demo-grid {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .demo-preview-card img {
+        width: 130% !important;
+        border: 12px solid transparent !important;
+    }
+    .demo-grid {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .demo-preview-card img {
+        width: 110% !important;
+        border: 10px solid transparent !important;
+    }
+    .demo-grid {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .demo-preview-card img {
+        width: 100% !important;
+        border: 8px solid transparent !important;
+    }
+    .demo-grid {
+        gap: 20px;
+    }
+}
+
+/* Add gap between demo items */
+.custom-background .row.g-5 {
+    --bs-gutter-x: 20px !important;
+    --bs-gutter-y: 20px !important;
+    gap: 20px !important;
+}
+
+/* Ensure demo cards are centered */
+.custom-background .demo-preview-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.demo-preview-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+/* removed conflicting responsive size overrides for demo cards */
+
+.item-one::after {
+    content: 'ITEM ONE';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.item-two::after {
+    content: 'ITEM TWO';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.item-three::after {
+    content: 'ITEM THREE';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #28a745;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.demo-preview-card:hover::before {
+    opacity: 1;
+}
+
+.demo-preview-card:hover::after {
+    opacity: 1;
+}
+
+.demo-preview-card:hover img {
+    filter: brightness(0.9);
+}
+
+/* removed legacy max-width rule on demo cards */
+
+/* Support section styling */
+.support-image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #28a745;
+    border-radius: 50%;
+    padding: 35px;
+    background-color: white;
+    object-fit: contain;
+}
+
+.support-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.support-section p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+/* Custom button styling for See All Demo */
+.btn-success.btn-lg {
+    border-radius: 50px;
+    padding: 15px 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.btn-success.btn-lg:hover {
+    background-color: #1e7e34 !important;
+    border-color: #1e7e34 !important;
+}
+
+.btn-success.btn-lg .icon {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    color: #000000;
+}
+
+/* Support section text styling */
+.support-section p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6c757d;
+    line-height: 1.4;
+}
+
+/* Support section responsive spacing */
+@media (min-width: 1200px) {
+    .hero-section {
+        padding-bottom: 4rem !important;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .hero-section {
+        padding-bottom: 5rem !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .support-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+        margin-top: 2rem !important;
+    }
+    
+    .hero-section {
+        padding-bottom: 6rem !important;
+    }
+    
+    .custom-background {
+        padding-top: 3rem !important;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .support-section {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+        margin-top: 3rem !important;
+    }
+    
+    .hero-section {
+        padding-bottom: 7rem !important;
+    }
+    
+    .custom-background {
+        padding-top: 4rem !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-section {
+        padding-bottom: 8rem !important;
+    }
+    
+    .custom-background {
+        padding-top: 5rem !important;
+    }
+}
+
+/* Core features description styling - same as support section */
+section[style*="background-color: #ffffff"] p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6c757d;
+    line-height: 1.4;
+}
+
+/* Customer benefits section text styling */
+.new-section p {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: #6c757d !important;
+    line-height: 1.4 !important;
+}
+
+/* Benefit boxes styling - make them bigger */
+.benefit-box {
+    padding: 2rem !important;
+    min-height: 250px !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    margin: 0 auto !important;
+}
+
+.benefit-box img {
+    width: 80px;
+    height: 80px;
+}
+
+.benefit-box h5 {
+    font-size: 1.3rem;
+    margin-top: 1.5rem !important;
+}
+
+.benefit-box p {
+    font-size: 1.1rem;
+}
+
+/* Customer benefits heading styling */
+.new-section h1 {
+    font-weight: 700;
+    margin-top: 0rem !important;
+}
+
+/* Green badge spacing */
+.green-badge {
+    margin-bottom: 0.2rem !important;
+}
+
+/* Override Bootstrap margins */
+.green-badge.mb-5 {
+    margin-bottom: 0.2rem !important;
+}
+
+.new-section h1.mb-4 {
+    margin-bottom: 0.5rem !important;
+}
+
+/* Core features section styling */
+.badge.bg-success {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    background-color: #28a745 !important;
+}
+
+/* CTA section text styling */
+.cta-section p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #6c757d;
+}
+
+/* Consistent sizing for demo images in custom background */
+.demo-preview-card {
+    width: 485px !important;
+    height: 600px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo-preview-card img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
+/* Ensure three images fit in one line */
+.demo-grid {
+    gap: 30px !important;
+    justify-content: center !important;
+    flex-wrap: nowrap !important;
+    max-width: 1600px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+/* Responsive sizing for demo images */
+@media (max-width: 1520px) {
+    .demo-preview-card {
+        width: 380px !important;
+        height: 456px !important;
+    }
+    .demo-grid {
+        gap: 20px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        flex-wrap: wrap !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .demo-preview-card,
+    .demo-grid .demo-preview-card {
+        width: 300px !important;
+        height: 360px !important;
+    }
+    .demo-grid {
+        gap: 15px !important;
+        flex-wrap: wrap !important;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+    .demo-grid .demo-preview-card:last-child {
+        margin-top: 0 !important;
+    }
+    .demo-grid .demo-preview-card:last-child img {
+        width: 100% !important;
+        border: none !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .demo-grid .demo-preview-card:last-child {
+        width: 370px !important;
+        height: 420px !important;
+    }
+}
+
+
+
+/* removed old one-off layout rules */
+
+.green-badge {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.benefit-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+}
+
+.benefit-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+.benefit-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-box {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefit-box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefit-box img.benefit-icon {
+    max-width: 70px;
+    max-height: 70px;
+    object-fit: contain;
+}
+
+.section-divider {
+    width: 60px;
+    height: 4px;
+    margin: 20px auto 0 auto;
+    border-radius: 2px;
+}
+
+.feature-box {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-icon {
+    max-width: 70px;
+    height: auto;
+}
+
+.feature-box {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.envato-btn {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50px;
+    padding: 14px 32px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.envato-btn:hover {
+    background-color: #1e7e34;
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: #fff;
+}
+
+.envato-btn .icon {
+    background-color: #fff;
+    color: #000000;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.cta-section {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cta-section h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.cta-section em {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.cta-section p {
+    font-size: 1.6rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+/* removed duplicate envato button rules (kept first set) */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+/* Custom demo grid for responsive alignment */
+.demo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 145px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.demo-grid .demo-preview-card {
+    flex: 0 0 auto;
+    width: 320px;
+    padding: 15px;
+}
+
+/* Medium screens: 2+1 layout */
+@media (max-width: 991px) {
+    .demo-grid .demo-preview-card {
+        width: calc(50% - 10px);
+    }
+    
+    .demo-grid .demo-preview-card:last-child {
+        width: calc(100% - 10px);
+        margin-top: 20px;
+    }
+    
+    .demo-grid .demo-preview-card:last-child img {
+        width: 80% !important;
+        border: 12px solid transparent !important;
+    }
+}
+
+/* Small screens: 1+1+1 layout */
+@media (max-width: 767px) {
+    .demo-grid .demo-preview-card {
+        width: calc(100% - 10px);
+        margin-bottom: 20px;
+    }
+    
+    .demo-grid .demo-preview-card:last-child {
+        margin-top: 0;
+    }
+}
