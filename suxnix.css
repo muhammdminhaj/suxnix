@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("C:/Users/muham/OneDrive/Documents/suxnix/images/pastel_rainbow_coloured_watercolour_texture_background_0612.jpg");
+    background-image: url("suxnix/images/pastel_rainbow_coloured_watercolour_texture_background_0612.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -11,7 +11,6 @@ body {
     margin: 0;
 }
 
-/* Plugin image sizing */
 .plugin-logo {
     margin-top: -30px;
     width: 240px;
@@ -30,7 +29,6 @@ body {
     .plugin-logo { width: 210px; }
 }
 
-/* removed duplicate heading and border rules */
 
 .custom-heading {
     font-size: 2rem;
@@ -71,7 +69,7 @@ body {
 }
 
 .custom-background {
-    background-image: url("C:/Users/muham/OneDrive/Documents/suxnix/images/25098.jpg");
+    background-image: url("suxnix/images/25098.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -84,13 +82,6 @@ body {
     }
 }
 
-/* duplicate media removed - using consolidated set below */
-
-
-
-/* removed older base + media duplicates for .custom-heading */
-
-/* removed duplicate .custom-background and duplicate hide rule */
 
 .left-right-images .col-md-6:first-child img {
     position: relative;
@@ -104,12 +95,10 @@ body {
     left: 177px;
 }
 
-/* Tighten spacing under the product image row */
 .left-right-images .mb-4 {
     margin-bottom: 0 !important;
 }
 
-/* Remove shadow and border-radius from left-right images */
 .left-right-images .shadow.rounded {
     box-shadow: none !important;
     border-radius: 0 !important;
@@ -129,14 +118,14 @@ body {
     height: auto;
     border-radius: 15px;
     border: 20px solid transparent !important;
-    background: url("C:/Users/muham/OneDrive/Documents/suxnix/images/pastel_rainbow_coloured_watercolour_texture_background_0612.jpg");
+    background: url("suxnix/images/pastel_rainbow_coloured_watercolour_texture_background_0612.jpg");
     background-size: cover;
     background-clip: border-box;
     margin: 0 auto;
     display: block;
 }
 
-/* Responsive image sizing */
+
 @media (max-width: 1200px) {
     .demo-preview-card img {
         width: 155% !important;
@@ -177,14 +166,13 @@ body {
     }
 }
 
-/* Add gap between demo items */
+
 .custom-background .row.g-5 {
     --bs-gutter-x: 20px !important;
     --bs-gutter-y: 20px !important;
     gap: 20px !important;
 }
 
-/* Ensure demo cards are centered */
 .custom-background .demo-preview-card {
     display: flex;
     justify-content: center;
@@ -199,7 +187,6 @@ body {
     padding: 15px;
 }
 
-/* removed conflicting responsive size overrides for demo cards */
 
 .item-one::after {
     content: 'ITEM ONE';
@@ -255,9 +242,6 @@ body {
     filter: brightness(0.9);
 }
 
-/* removed legacy max-width rule on demo cards */
-
-/* Support section styling */
 .support-image {
     width: 200px;
     height: 200px;
@@ -278,7 +262,6 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Custom button styling for See All Demo */
 .btn-success.btn-lg {
     border-radius: 50px;
     padding: 15px 30px;
@@ -304,8 +287,6 @@ body {
     margin-left: 10px;
     color: #000000;
 }
-
-/* Support section text styling */
 .support-section p {
     font-size: 1rem;
     font-weight: 600;
@@ -313,7 +294,6 @@ body {
     line-height: 1.4;
 }
 
-/* Support section responsive spacing */
 @media (min-width: 1200px) {
     .hero-section {
         padding-bottom: 4rem !important;
@@ -367,8 +347,6 @@ body {
         padding-top: 5rem !important;
     }
 }
-
-/* Core features description styling - same as support section */
 section[style*="background-color: #ffffff"] p {
     font-size: 1rem;
     font-weight: 600;
@@ -376,7 +354,6 @@ section[style*="background-color: #ffffff"] p {
     line-height: 1.4;
 }
 
-/* Customer benefits section text styling */
 .new-section p {
     font-size: 1rem !important;
     font-weight: 600 !important;
@@ -384,7 +361,6 @@ section[style*="background-color: #ffffff"] p {
     line-height: 1.4 !important;
 }
 
-/* Benefit boxes styling - make them bigger */
 .benefit-box {
     padding: 2rem !important;
     min-height: 250px !important;
@@ -407,18 +383,18 @@ section[style*="background-color: #ffffff"] p {
     font-size: 1.1rem;
 }
 
-/* Customer benefits heading styling */
+
 .new-section h1 {
     font-weight: 700;
     margin-top: 0rem !important;
 }
 
-/* Green badge spacing */
+
 .green-badge {
     margin-bottom: 0.2rem !important;
 }
 
-/* Override Bootstrap margins */
+
 .green-badge.mb-5 {
     margin-bottom: 0.2rem !important;
 }
@@ -427,21 +403,21 @@ section[style*="background-color: #ffffff"] p {
     margin-bottom: 0.5rem !important;
 }
 
-/* Core features section styling */
+
 .badge.bg-success {
     font-size: 1.1rem;
     padding: 8px 16px;
     background-color: #28a745 !important;
 }
 
-/* CTA section text styling */
+
 .cta-section p {
     font-size: 1.2rem;
     font-weight: 500;
     color: #6c757d;
 }
 
-/* Consistent sizing for demo images in custom background */
+
 .demo-preview-card {
     width: 485px !important;
     height: 600px !important;
@@ -456,7 +432,7 @@ section[style*="background-color: #ffffff"] p {
     object-fit: cover;
 }
 
-/* Ensure three images fit in one line */
+
 .demo-grid {
     gap: 30px !important;
     justify-content: center !important;
@@ -466,7 +442,6 @@ section[style*="background-color: #ffffff"] p {
     margin-right: 15px !important;
 }
 
-/* Responsive sizing for demo images */
 @media (max-width: 1520px) {
     .demo-preview-card {
         width: 380px !important;
@@ -510,7 +485,6 @@ section[style*="background-color: #ffffff"] p {
 
 
 
-/* removed old one-off layout rules */
 
 .green-badge {
     display: inline-block;
@@ -663,7 +637,6 @@ section[style*="background-color: #ffffff"] p {
     margin-bottom: 30px;
 }
 
-/* removed duplicate envato button rules (kept first set) */
 
 html {
     scroll-behavior: smooth;
@@ -679,7 +652,7 @@ html {
     padding-top: 10vh;
 }
 
-/* Custom demo grid for responsive alignment */
+
 .demo-grid {
     display: flex;
     flex-wrap: wrap;
@@ -697,7 +670,7 @@ html {
     padding: 15px;
 }
 
-/* Medium screens: 2+1 layout */
+
 @media (max-width: 991px) {
     .demo-grid .demo-preview-card {
         width: calc(50% - 10px);
@@ -714,7 +687,7 @@ html {
     }
 }
 
-/* Small screens: 1+1+1 layout */
+
 @media (max-width: 767px) {
     .demo-grid .demo-preview-card {
         width: calc(100% - 10px);
